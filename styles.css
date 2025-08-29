@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Soft off-white background */
+    color: #333; /* Dark text for readability */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffffff; /* White for a clean look */
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+    margin-right: 30px;
+}
+
+header .hero-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 50px;
+    color: #333; /* Dark color for header */
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+header .buttons button {
+    background-color: #f1f1f1; /* Light grey button */
+    color: #333; /* Dark text for visibility */
+    padding: 12px 30px;
+    border: 1px solid #ddd; /* Subtle border for a refined look */
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+header .buttons button:hover {
+    background-color: #e0e0e0; /* Slightly darker grey on hover */
+    border-color: #bbb; /* Darker border on hover */
+    color: #0071e3; /* Change text color to blue on hover for emphasis */
+}
+
+header .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services-subtext {
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-cards, .trust-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card, .trust-card {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card img, .trust-card img {
+    width: 70%;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.card:hover, .trust-card:hover {
+    transform: translateY(-5px); /* Smooth lift effect */
+}
+
+.testimonial-slider blockquote {
+    font-size: 22px;
+    font-style: italic;
+    color: #555;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Stock News Alerts Section */
+.stock-alerts {
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.stock-alerts h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.stock-alerts p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #0071e3;  /* Blue button similar to Apple */
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}
+
+.accordion .faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    background-color: #f1f1f1; /* Light grey button */
+    color: #333;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #ddd; /* Subtle border for a refined look */
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #e0e0e0;
+    border-color: #bbb;
+    color: #0071e3; /* Change text color to blue on hover for emphasis */
+}
+
+.faq-answer {
+    margin-top: 10px;
+    display: none;
+    padding: 15px;
+    color: #555;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    color: #777;
+}
